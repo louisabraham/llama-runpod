@@ -69,7 +69,7 @@ r = requests.get(url + f"/status/{id_}", headers=headers)
 r.json()
 ```
 
-You can pass any keyword arguments in the payload. See the [docs](https://llama-cpp-python.readthedocs.io/en/latest/api-reference/#llama_cpp.Llama.__call__) for other arguments.
+You can pass the keyword arguments to LLaMa in the payload. See the llama_cpp [docs](https://llama-cpp-python.readthedocs.io/en/latest/api-reference/#llama_cpp.Llama.__call__) for other arguments.
 
 ## Additional details and tips
 
