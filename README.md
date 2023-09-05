@@ -73,7 +73,7 @@ You can pass the keyword arguments to LLaMa in the payload. See the llama_cpp [d
 
 ## Additional details and tips
 
-- clean Docker after a build or if you get into trouble: `docker system prune -a``
+- clean Docker after a build or if you get into trouble: `docker system prune -a`
 - debug your Docker image with `docker run -it llama-runpod`
 - we froze `llama-cpp-python==0.1.78` in `Dockerfile` because the model format changed from `ggmlv3` to `gguf` in version `0.1.79` but the conversion script in [llama.cpp](https://github.com/ggerganov/llama.cpp) is not fully working
 - you can test `handle.py` locally with `python handle.py`
