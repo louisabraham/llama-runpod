@@ -39,7 +39,7 @@ You can pass the arguments to `llama_cpp` in the `LLAMA_ARGS` environment variab
 
 5. Create the endpoint:
 
-![RunPod endpoint](endpoint.png)
+![RunPod endpoint](readme-images/endpoint.png)
 
 6. Profit!
 
